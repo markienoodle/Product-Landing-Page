@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <div class="logo">
+        <img src="Scooty Logo.png" alt="Scooty Logo" id="header-img" />
+        <h1>SCOOTY</h1>
+      </div>
+
+      <nav id="nav-bar">
+        <ul>
+          <li><a href="#feat" class="nav-link">Features</a></li>
+          <li><a href="#pricing" class="nav-link">Pricing</a></li>
+          <li><a href="#contact" class="nav-link">Contact Us</a></li>
+        </ul>
+
+        <!--add href-->
+      </nav>
+    </header>
+
+    <div id="title-screen">
+      <video autoplay muted loop id="video">
+        <source src="0719.mp4" type="video/mp4" />
+      </video>
+      <div id="title-text">
+        <p id="title">SCOOTY</p>
+        <p id="subtitle">scoot scoot!</p>
+      </div>
+    </div>
+
+    <main>
+      <p id="desc">
+        Convenient and eco-friendly electric scooter rentals for seamless
+        commuting.
+      </p>
+
+      <section id="feat">
+        <h1>Features</h1>
+        <ul id="features-list">
+          <div id="first-5">
+            <li>
+              <p class="feature-title">Easy App-Based Rentals</p>
+              <p class="feature-desc">
+                Rent scooters effortlessly through our user-friendly mobile app.
+              </p>
+            </li>
+            <li>
+              <p class="feature-title">Eco-Friendly Transportation</p>
+              <p class="feature-desc">
+                Reduce your carbon footprint with our electric scooters.
+              </p>
+            </li>
+            <li>
+              <p class="feature-title">Affordable Pricing</p>
+              <p class="feature-desc">
+                Competitive and transparent pricing with various rental plans.
+              </p>
+            </li>
+            <li>
+              <p class="feature-title">Wide Coverage</p>
+              <p class="feature-desc">
+                Extensive network of scooters available across the city.
+              </p>
+            </li>
+            <li>
+              <p class="feature-title">Real-Time Tracking</p>
+              <p class="feature-desc">
+                Track available scooters and your rides in real-time.
+              </p>
+            </li>
+          </div>
+          
+          <div id="second-5"><li>
+            <p class="feature-title">Safe and Secure</p>
+            <p class="feature-desc">
+              Helmets provided with every rental and 24/7 customer support.
+            </p>
+          </li>
+          <li>
+            <p class="feature-title">Flexible Payment Options</p>
+            <p class="feature-desc">
+              Pay via credit card, debit card, or digital wallets.
+            </p>
+          </li>
+          <li>
+            <p class="feature-title">Seamless Unlocking</p>
+            <p class="feature-desc">
+              Quick and easy scooter unlocking with QR codes.
+            </p>
+          </li>
+          <li>
+            <p class="feature-title">Battery Status Monitoring</p>
+            <p class="feature-desc">
+              Always know the battery level of your scooter before you ride.
+            </p>
+          </li>
+          <li>
+            <p class="feature-title">Parking Assistance</p>
+            <p class="feature-desc">
+              Designated parking zones to ensure convenient drop-offs.
+            </p>
+          </li>
+        </ul></div>
+      </section>
+
+      <section id="pricing">
+        <h1>Pricing</h1>
+
+        <div id="price-boxes"> <div class="price-box">
+          <p class="price">$5</p>
+          <p class="time">per hour</p>
+          <hr>
+          <ul>
+            <li>Access to all scooters</li>
+            <li>Real-time tracking</li>
+            <li>Helmet included</li>
+            <li>24/7 customer support</li>
+          </ul>
+        </div>
+
+        <div class="price-box">
+          <p class="price">$25</p>
+          <p class="time">per day</p>
+          <hr>
+          <ul>
+            <li>All Basic Plan features</li>
+            <li>Battery status monitoring</li>
+            <li>Flexible payment options</li>
+            <li>Free unlocks (up to 5 per day)</li>
+            <li>Priority customer support</li>
+          </ul>
+        </div>
+
+        <div class="price-box">
+          <p class="price">$150</p>
+          <p class="time">per month</p>
+          <hr>
+          <ul>
+            <li>All Standard Plan features</li>
+            <li>Unlimited unlocks</li>
+            <li>Designated parking spots</li>
+            <li>Free ride credits (up to 10 hours per month)</li>
+            <li>Exclusive offers and discounts</li>
+            <li>Dedicated customer service line</li>
+          </ul>
+        </div>
+        
+        
+      </section>
+      
+
+      <section id="contact">
+      <h1>Contact us</h1>
+      <p><span>Phone</span>+1 (555) 123-4567</p>
+      <p><span>Website</span>www.scooty.com</p>
+      <p><span>Address</span>123 Greenway Blvd, Suite 456, EcoCity, EC 78901</p>
+
+        <form
+        action="https://www.freecodecamp.com/email-submit"
+        method="post"
+        id="form"
+      >
+        <label for="email"
+          >Enter your email address to receive weekly subscription emails:
+        </label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Email address"
+        />
+        <input type="submit" name="Submit" id="submit" />
+      </form>
+
+      
+       
+      
+      </section>
+
+      
+    </main>
+    <footer><p id="ending-logo">SCOOTY®</p> <span>Mark Lawrence R. Balading</span> <br />@markienoodle
+        <br />University of Santo Tomas <br />College of Information and Computing
+        Sciences <br />
+        July 20, 2024</footer>
+  </body>
+</html>
